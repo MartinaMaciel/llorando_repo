@@ -1,0 +1,98 @@
+@media screen and (min-width:600px){
+    ul{
+        height: 80px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        width: 10%;
+        text-align: center;
+    }
+    footer{
+        height: 100px;
+    }
+    .banner{
+        height: 300px;
+    }
+    #grilla{
+        height: 1600px;
+        grid-template-columns: 25% 25% 25%;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-areas: "a1 a2 a3"
+                            "a4 a5 a6"
+                            "a7 a8 a9";
+        justify-content: space-evenly;
+        column-gap: 1%;
+        row-gap: 5px;
+        align-content: space-around;
+    }
+    #grilla2{
+        height: 1600px;
+        grid-template-columns: 25% 25% 25%;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-areas: "a1 a2 a3"
+                            "a4 a5 a6"
+                            "a7 a8 a9";
+        justify-content: space-evenly;
+        column-gap: 1%;
+        row-gap: 5px;
+        align-content: space-around;
+    }
+}
+@media only screen and (max-width:600px){
+    header{
+        height: 300px;
+    }
+    main{
+        height: 2000px;
+    }
+    footer{
+        height: 100px;
+    }
+    #grilla{
+        grid-template-columns: 90%;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+        grid-template-areas: "a1"
+                            "a2"
+                            "a3"
+                            "a4"
+                            "a5"
+                            "a6"
+                            "a7"
+                            "a8"
+                            "a9";
+        align-content: space-around;
+        justify-content: center;
+    }
+    #grilla2{
+        grid-template-columns: 90%;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+        grid-template-areas: "a1"
+                            "a2"
+                            "a3"
+                            "a4"
+                            "a5"
+                            "a6"
+                            "a7"
+                            "a8"
+                            "a9";
+        align-content: space-around;
+        justify-content: center;
+    }
+    form{
+        height: 100%;
+        width: 100%;
+    }
+}
+#grilla{
+    display: grid;
+}
+#grilla2{
+    display: grid;
+}
+.banner{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
