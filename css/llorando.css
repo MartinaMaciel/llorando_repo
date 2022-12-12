@@ -1,0 +1,109 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+.bi-facebook:hover{
+    font-size: 20px;
+    color: rgb(54, 24, 224);
+}
+.bi-instagram:hover{
+    font-size: 20px;
+    color: rgb(196, 62, 118);
+}
+.bi-twitter:hover{
+    font-size: 20px;
+    color: rgb(112, 172, 230);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 400px;
+    background-color: aquamarine;
+}
+main{
+    height: 100%;
+    background-image: linear-gradient(rgb(0, 238, 255), rgb(160, 20, 224), rgb(255, 0, 212));
+}
+footer{
+
+    background-color: blueviolet;
+    height: 150px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+div{
+    text-align: center;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+}
+#grilla{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: "a1 a2 a3"
+                        "a4 a5 a6"
+                        "a7 a8 a9";
+    justify-content: space-evenly;
+    column-gap: 1%;
+    row-gap: 5px;
+    align-content: space-around;
+}
+#padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#main_ventas{
+    height: 3300px;
+}
+#grilla2{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: "a1 a2 a3"
+                        "a4 a5 a6"
+                        "a7 a8 a9";
+    justify-content: space-evenly;
+    column-gap: 1%;
+    row-gap: 5px;
+    align-content: space-around;
+}
+.hijo{
+    height:20%;
+    width: 300px;
+}
+.banner{
+    object-fit: cover;
+}
+.producto{
+    width: 90%;
+    height: 90%;
+}
+.producto:hover{
+    transform: scale(1.2,1.2);
+}
+.main_catalogo{
+    height: 3500px;
+}
+.ul_footer{
+    color: beige;
+}
+.promos{
+    height: 100%;
+    width: 90%;
+}
+.padre{
+    height: 35%;
+    width: 98%;
+}
+.comprar{
+    width: 90%;
+    height: 90%;
+}
