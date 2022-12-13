@@ -11,10 +11,7 @@
     font-size: 20px;
     color: rgb(112, 172, 230);
 }
-*{
-    margin: 0;
-    padding: 0;
-}
+/***/
 header{
     background-color: aquamarine;
 }
@@ -24,11 +21,6 @@ main{
 footer{
 
     background-color: blueviolet;
-}
-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
 }
 div{
     text-align: center;
@@ -43,10 +35,6 @@ ul{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.producto{
-    width: 90%;
-    height: 90%;
-}
 .producto:hover{
     transform: scale(1.2,1.2);
 }
@@ -60,8 +48,4 @@ ul{
 .padre{
     height: 35%;
     width: 98%;
-}
-.comprar{
-    width: 90%;
-    height: 90%;
 }
